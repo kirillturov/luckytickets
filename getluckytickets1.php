@@ -20,7 +20,6 @@ function get_lucky_tickets1($digits_count) {
         $tmp[$sum][] = $i;
     }
 
-
     foreach ($tmp as $sum) {
         foreach ($sum as $left_num) {
             foreach ($sum as $right_num) {
