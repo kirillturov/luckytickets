@@ -4,6 +4,7 @@
  * User: kiryan
  * Date: 06.08.18
  * Time: 15:50
+ * @param $digits_count
  */
 
 function print_lucky_tickets1($digits_count) {

@@ -8,6 +8,7 @@
 
 include 'print_lt1.php';
 include 'print_lt2.php';
+include 'print_lt3.php';
 
 $digits = 6;
 
