@@ -6,15 +6,11 @@
  * Time: 15:21
  */
 
-    include 'getluckytickets1.php';
-    include 'getluckytickets2.php';
+include 'print_lt1.php';
+include 'print_lt2.php';
 
-    $digits = 6;
-    $tickets = get_lucky_tickets1($digits);
+$digits = 6;
 
-    if ($digits % 2 == 0) {
-        foreach($tickets as $ticket) {
-            echo sprintf("%0".(string) $digits."d", $ticket)."\n";
-        }
-        echo 'count tickets: '.count($tickets);
-    }
+if ($digits % 2 == 0) {
+    print_lucky_tickets1($digits);
+}
